@@ -2369,6 +2369,5 @@ const NON_CHARACTERS = 'fien';
 console.log('Getting words with the characters of: ', CHARACTERS);
 
 var test = getCharMap(CHARACTERS);
-console.log('char map creation', test );
 console.log( 'result: ');
 console.table(wordsWithCharacters(CHARACTERS, NON_CHARACTERS));
